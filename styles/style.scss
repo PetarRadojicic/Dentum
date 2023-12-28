@@ -340,57 +340,6 @@ button {
         padding-bottom: 13px;
     }
 }
-
-/* Navbar toggler */
-.navbar-toggler {
-    border: none;
-	border-radius: 0;
-	padding: 0;
-    &:focus {
-        outline: 0;
-    }
-    &:hover {
-        box-shadow: none;
-    }
-
-    .icon-bar {
-        width: 35px;
-        transition: all 0.3s;
-        background: #221638;
-        height: 4px;
-		display: block;
-		border-radius: 3px;
-    }
-    .top-bar {
-        transform: rotate(45deg);
-        transform-origin: 10% 10%;
-        left: 4px;
-        position: relative;
-    }
-    .middle-bar {
-        opacity: 0;
-        margin: 5px 0;
-    }
-    .bottom-bar {
-        transform: rotate(-45deg);
-        transform-origin: 10% 90%;
-        left: 4px;
-        position: relative;
-    }
-    &.collapsed {
-        .top-bar {
-            transform: rotate(0);      
-            left: 0;
-        }
-        .middle-bar {
-            opacity: 1;
-        }
-        .bottom-bar {
-            transform: rotate(0);
-            left: 0;
-        }
-    }
-}
 /*-- End Navbar --*/
 
 /*-- Home Slider --*/
